@@ -1,0 +1,13 @@
+# Core (required)
+pydantic>=2.9.0
+gradio>=5.0.0
+
+# Instructor (highly recommended)
+instructor>=1.7.0
+
+# LLM providers (install what you use)
+openai>=1.50.0          # For OpenAI + Ollama (OpenAI-compatible)
+# anthropic>=0.40.0     # For Claude
+
+# Utilities
+python-dotenv>=1.0.0
